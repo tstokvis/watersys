@@ -13,11 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
-/**
- * Created by Trevor on 2017-02-18.
- */
 public class Main {
-
 
     private static final String EVERYTHINGS_FINE = "Parsing succeed on last check";
 
@@ -51,7 +47,6 @@ public class Main {
         frame.add(restrictionLevelTitle);
         frame.add(restrictionLevel);
         frame.add(new JLabel(EVERYTHINGS_FINE));
-
 
 
         for (GardenItem gardenItem : gardenItems) {
